@@ -1,0 +1,262 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Leonel">
+        <meta name="descirption" content="Portfolio de desarrollo web de Leonel">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Leonel | Desarrollo Web Front-End</title>
+        <link rel="icon" type="image/x-icon" href="Media/icono.png">
+<!---------- Bootstrap -------------->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+<!---------- Iconos Bootstrap ------->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<!-- Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand">
+                        <img class="navbar-logo" src="media\icono.png" width="50" alt="Logo de la pagina web">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#aboutme">
+                                <button class="button">Sobre mi</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">
+                                <button class="button">Proyectos</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactos">
+                                <button class="button">Contactos</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sección hero-->
+        <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-imagen-desarrollador rounded-circle" src="media/imagenusuario.jpg" alt="Foto de Leonel Gongora">
+                <h1>Hola, soy Leonel Gongora</h1>
+                <h2>Desarrollo Sitios Web, Aplicaciones para Celular y Sistemas</h2>
+            </div>
+            <div class="hero-inferior">
+                <img class="hero-inferior-imagen img-fluid" src="media/hero-inferior.png" alt="Monitor, parlantes y logos de HTML, CSS y AppInventor2">
+            </div>
+        </section>
+
+        <!-- Seccion About Me-->
+        <section class="sobre-mi seccion-oscura" id="aboutme">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Conoce a Leonel</h2>
+                <p class="seccion-texto">
+                    Soy de Argentina Buenos Aires, Grand Bourg, estudio en la Escuela de Educación Secundaria
+                    Tecnica Numero 1 de Grand Bourg, me estoy especializando en la modalidad de Informatica. 
+                    Actualmente curso el sexto año en 6°1.<br>
+                    Mi meta actual es la de terminar la tecnicatura y empezar a estudiar una materia 
+                    relacionada a la informatica con la cual poder vivir de ello, y mientras tanto 
+                    estudiar cursos aparte con tal de seguir ampliandome en el campo de la informatica;
+                    por ejemplo excel.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección experiencia-->
+        <section class="experiencia seccion-clara">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Desarrollo web -->
+                    <div class="columna col-12 col-md-6">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia-titulo">Desarrollo web</p>
+                        <p>
+                            Por ahora manejo conocimiento suficiente de los siguientes lenguajes como para
+                            funcionar en una empresa o, en su defecto, por encargos, teniendo la experiencia
+                            de haber estudiado los mismos por unos 3 años y haber puesto todo de mi para aprender
+                            hasta el mas minimo detalle de cada uno.
+                        </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">HTML</span>
+                            <span class="badge text-bg-primary">CSS</span>
+                            <span class="badge text-bg-primary">JavaScript</span>
+                            <span class="badge text-bg-primary">PHP</span>
+                        </div>
+                    </div>
+                    <!-- Estudios -->
+                    <div class="columna col-12 col-md-6">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia-titulo">Estudios</p>
+                        <p>
+                            Actualmente estoy estudiando los siguientes lenguajes y herramientas para asi mejorar mi
+                            rendimiento y variedad en terminos de posibilidades de trabajo y sobre todo estar mejor 
+                            capacitado para el futuro. No me quiero quedar solo con eso, mi plan es aprender muchos 
+                            mas lenguajes y conocer muchas mas herramientas para ser autosuficiente en algun momento
+                            de mi aprendizaje
+                        </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Java</span>
+                            <span class="badge text-bg-primary">AppInventor</span>
+                            <span class="badge text-bg-primary">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion proyectos -->
+        <section class="proyectos-recientes seccion-clara d-flex flex-column" id="proyectos">
+            <h2 class="seccion-titulo texto-negro">Mis proyectos Recientes</h2>
+            <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente:</h3>
+
+            <!-- Galeria de proyectos -->
+            <div class="container text-center proyectos-contenedor">
+                <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col-12 col-lg-6">
+                        <div class="proyecto">
+                            <img src="media/proyecto1.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto TA-TE-TI</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/LeoGongora06/LSO" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="col-12  col-lg-6">
+                        <div class="proyecto">
+                            <img src="media/proyecto2.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto Juego Atrapa</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/LeoGongora06/LSO" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="col-12  col-lg-6">
+                        <div class="proyecto">
+                            <img src="media/proyecto3.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto Signos</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/LeoGongora06/LSO" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4 -->
+                    <div class="col-12  col-lg-6">
+                        <div class="proyecto">
+                            <img src="media/proyecto4.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto Memoria</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/LeoGongora06/LSO" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 5 -->
+                    <div class="col-12  col-lg-12">
+                        <div class="proyecto">
+                            <img src="media/proyecto5.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto Pagina web E.E.S.T.N°1</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/LeoGongora06/LSO" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Contactos -->
+        <section class="contacto seccion-oscura" id="contactos">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            Hablemos
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contactame si necesitas una aplicación, un sistema o una pagina web!!!
+                        </div>
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            <a href="mailto:gongoraleonel993@gmail.com">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Footer -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-logo" src="media/portfolio.svg" alt="Logo de portfolio">
+            <p class="footer-texto text-center">Aprendo y creo todos los dias.<br> Creemos un proyecto juntos</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="https://www.instagram.com/leo_gongora06" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://github.com/LeoGongora06" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="mailto:gongoraleonel993@gmail.com" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-envelope-check"></i>
+                </a>
+            </div> 
+            <div class="derechos-de-autor">
+                Creado por Gongora Leonel, 6°1 (2023)&#169;
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+    </body>
+</html>
